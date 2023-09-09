@@ -5,4 +5,13 @@ import { Component, Input } from '@angular/core';
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css'],
 })
-export class CardComponent {}
+export class CardComponent {
+  @Input()
+  gameCover: string = '';
+  @Input()
+  gameLabel: string = '';
+  @Input()
+  gameType: string = '';
+  @Input()
+  gamePrice: string = '';
+}
