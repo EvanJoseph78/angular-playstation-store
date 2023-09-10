@@ -2,7 +2,7 @@
   /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   z-index: 999;
@@ -13,11 +13,11 @@
 
 .menu-bar__item {
   display: flex;
-  margin: auto;
+  margin-right: 25px;
   align-items: center;
 }
 
-.menu-bar__item > ul {
+.menu-bar__item>ul {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -26,14 +26,14 @@
   list-style-type: none;
 }
 
-.menu-bar__item > ul > li > a {
+.menu-bar__item>ul>li>a {
   text-decoration: none;
   color: rgb(7, 7, 7);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 5px;
 }
 
-.menu-bar__item > ul > li > a:hover {
+.menu-bar__item>ul>li>a:hover {
   color: blue;
   font-weight: 600;
 }
